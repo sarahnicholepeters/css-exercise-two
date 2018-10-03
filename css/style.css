@@ -1,6 +1,7 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #0000;
+  color: #FFFFF;
+  font-size: 16px;
 }
 
 nav {
@@ -9,14 +10,27 @@ nav {
   position: fixed;
   width: 100%;
 }
+.link {
+  text-decoration: none;
+}
 
 .logo {
   margin: 20px;
   width: 100px;
 }
+.title {
+  font-size: 3em;
+}
+.subtitle {
+  font-size: 1.5em;
+}
 
 .large-pic {
   width: 100%;
+}
+
+.story-text {
+    line-height: 2;
 }
 
 .medium-pic {
